@@ -41,7 +41,7 @@ publishing {
         maven(MavenPublication) {
             groupId = 'com.example'
             artifactId = 'test-without-webhooks'
-            version = '0.1.2'
+            version = '0.2.0'
 
             from components.java
 

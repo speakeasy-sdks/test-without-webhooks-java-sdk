@@ -12,14 +12,12 @@
 ### Gradle
 
 ```groovy
-implementation 'com.example.test_without_webhooks:test-without-webhooks:0.1.2'
+implementation 'com.example.test_without_webhooks:test-without-webhooks:0.2.0'
 ```
 <!-- End SDK Installation -->
 
 ## SDK Example Usage
 <!-- Start SDK Example Usage -->
-
-
 ```java
 package hello.world;
 
@@ -33,8 +31,8 @@ public class Application {
             TestWithoutWebhooks sdk = TestWithoutWebhooks.builder()
                 .build();
 
-            com.example.test_without_webhooks.models.shared.Pet1 req = new Pet1(548814L, "provident") {{
-                tag = "distinctio";
+            com.example.test_without_webhooks.models.shared.Pet1 req = new Pet1(844266L, "unde") {{
+                tag = "nulla";
             }};            
 
             PostSendPetResponse res = sdk.postSendPet(req);
@@ -57,6 +55,18 @@ public class Application {
 
 * [postSendPet](docs/sdks/testwithoutwebhooks/README.md#postsendpet)
 <!-- End SDK Available Operations -->
+
+
+
+<!-- Start Dev Containers -->
+
+
+
+<!-- End Dev Containers -->
+
+<!-- Placeholder for Future Speakeasy SDK Sections -->
+
+
 
 ### Maturity
 

@@ -31,7 +31,7 @@ lib/src/main/java/com/example/test_without_webhooks/utils/Utils.java
 settings.gradle
 lib/src/main/java/com/example/test_without_webhooks/models/operations/PostSendPetResponse.java
 lib/src/main/java/com/example/test_without_webhooks/models/shared/Pet1.java
-docs/sdks/testwithoutwebhooks/README.md
 USAGE.md
 docs/models/operations/PostSendPetResponse.md
 docs/models/shared/Pet1.md
+docs/sdks/testwithoutwebhooks/README.md
