@@ -12,7 +12,7 @@
 ### Gradle
 
 ```groovy
-implementation 'com.example.test_without_webhooks:test-without-webhooks:0.2.0'
+implementation 'com.example.test_without_webhooks:test-without-webhooks:0.2.1'
 ```
 <!-- End SDK Installation -->
 
@@ -59,8 +59,6 @@ public class Application {
 
 
 <!-- Start Dev Containers -->
-
-
 
 <!-- End Dev Containers -->
 
