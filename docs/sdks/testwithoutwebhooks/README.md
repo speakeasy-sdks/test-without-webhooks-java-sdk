@@ -24,8 +24,8 @@ public class Application {
             TestWithoutWebhooks sdk = TestWithoutWebhooks.builder()
                 .build();
 
-            com.example.test_without_webhooks.models.shared.Pet1 req = new Pet1(544883L, "illum") {{
-                tag = "vel";
+            com.example.test_without_webhooks.models.shared.Pet1 req = new Pet1(794362L, "Buckinghamshire") {{
+                tag = "Cyclocross powerfully";
             }};            
 
             PostSendPetResponse res = sdk.testWithoutWebhooks.postSendPet(req);
