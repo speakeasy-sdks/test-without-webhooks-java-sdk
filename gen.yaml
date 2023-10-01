@@ -2,8 +2,8 @@ configVersion: 1.0.0
 management:
   docChecksum: 0f4dc7d494564b62ed0526ffebf7d3cd
   docVersion: v1
-  speakeasyVersion: 1.91.3
-  generationVersion: 2.139.1
+  speakeasyVersion: 1.92.2
+  generationVersion: 2.142.2
 generation:
   comments:
     disableComments: false
@@ -14,10 +14,10 @@ generation:
   tagNamespacingDisabled: false
 features:
   java:
-    core: 2.87.0
+    core: 2.88.0
     globalServerURLs: 2.82.0
 java:
-  version: 0.3.0
+  version: 0.4.0
   artifactID: test-without-webhooks
   companyEmail: info@mycompany.com
   companyName: My Company
