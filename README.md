@@ -12,7 +12,7 @@
 ### Gradle
 
 ```groovy
-implementation 'com.example.test_without_webhooks:test-without-webhooks:0.4.2'
+implementation 'com.example.test_without_webhooks:test-without-webhooks:0.5.0'
 ```
 <!-- End SDK Installation -->
 
@@ -35,7 +35,7 @@ public class Application {
                 tag = "Cyclocross powerfully";
             }};            
 
-            PostSendPetResponse res = sdk.postSendPet(req);
+            PostSendPetResponse res = sdk.testWithoutWebhooks.postSendPet(req);
 
             if (res.statusCode == 200) {
                 // handle response

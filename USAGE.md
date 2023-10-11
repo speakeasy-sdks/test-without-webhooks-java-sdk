@@ -18,7 +18,7 @@ public class Application {
                 tag = "Cyclocross powerfully";
             }};            
 
-            PostSendPetResponse res = sdk.postSendPet(req);
+            PostSendPetResponse res = sdk.testWithoutWebhooks.postSendPet(req);
 
             if (res.statusCode == 200) {
                 // handle response
