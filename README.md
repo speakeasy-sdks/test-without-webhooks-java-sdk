@@ -12,7 +12,7 @@
 ### Gradle
 
 ```groovy
-implementation 'com.example.test_without_webhooks:test-without-webhooks:0.6.0'
+implementation 'com.example.test_without_webhooks:test-without-webhooks:0.7.0'
 ```
 <!-- End SDK Installation -->
 
@@ -32,7 +32,7 @@ public class Application {
                 .build();
 
             com.example.test_without_webhooks.models.shared.Pet1 req = new Pet1(794362L, "Buckinghamshire"){{
-                tag = "Cyclocross powerfully";
+                tag = "Specialist";
             }};            
 
             PostSendPetResponse res = sdk.testWithoutWebhooks.postSendPet(req);
