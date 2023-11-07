@@ -28,7 +28,7 @@ public class Application {
                 tag = "string";
             }};            
 
-            PostSendPetResponse res = sdk.testWithoutWebhooks.postSendPet(req);
+            PostSendPetResponse res = sdk.postSendPet(req);
 
             if (res.statusCode == 200) {
                 // handle response

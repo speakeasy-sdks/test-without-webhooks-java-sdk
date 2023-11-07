@@ -2,29 +2,32 @@ configVersion: 1.0.0
 management:
   docChecksum: 0f4dc7d494564b62ed0526ffebf7d3cd
   docVersion: v1
-  speakeasyVersion: 1.104.0
-  generationVersion: 2.169.0
+  speakeasyVersion: 1.114.1
+  generationVersion: 2.181.1
 generation:
-  comments:
-    disableComments: false
-    omitDescriptionIfSummaryPresent: false
-  baseServerURL: ""
-  repoURL: https://github.com/speakeasy-sdks/test-without-webhooks-java-sdk.git
+  comments: {}
   sdkClassName: test-without-webhooks
-  singleTagPerOp: false
-  tagNamespacingDisabled: false
+  repoURL: https://github.com/speakeasy-sdks/test-without-webhooks-java-sdk.git
 features:
   java:
-    core: 2.94.0
+    core: 3.0.1
     globalServerURLs: 2.82.0
 java:
-  version: 0.8.0
+  version: 0.9.0
   artifactID: test-without-webhooks
   companyEmail: info@mycompany.com
   companyName: My Company
   companyURL: www.mycompany.com
   githubURL: github.com/owner/repo
   groupID: com.example
+  imports:
+    option: openapi
+    paths:
+      callbacks: models/callbacks
+      errors: models/errors
+      operations: models/operations
+      shared: models/shared
+      webhooks: models/webhooks
   maxMethodParams: 0
   ossrhURL: https://s01.oss.sonatype.org/service/local/staging/deploy/maven2/
   projectName: test-without-webhooks
