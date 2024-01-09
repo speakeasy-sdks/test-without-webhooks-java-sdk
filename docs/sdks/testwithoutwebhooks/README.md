@@ -21,14 +21,16 @@ import com.example.test_without_webhooks.models.shared.Pet1;
 public class Application {
     public static void main(String[] args) {
         try {
-            TestWithoutWebhooks sdk = TestWithoutWebhooks.builder()
-                .build();
+            TestWithoutWebhooks sdk = TestWithoutWebhooks.builder()            .build();
 
-            com.example.test_without_webhooks.models.shared.Pet1 req = new Pet1(794362L, "string"){{
+            com.example.test_without_webhooks.models.shared.Pet1 req = new Pet1(
+                794362L,
+                "string"){{
                 tag = "string";
-            }};            
 
-            PostSendPetResponse res = sdk.postSendPet(req);
+            }};
+
+            com.example.test_without_webhooks.models.operations.PostSendPetResponse res = sdk.postSendPet(req);
 
             if (res.statusCode == 200) {
                 // handle response

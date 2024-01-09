@@ -129,10 +129,9 @@ public class TestWithoutWebhooks {
         HttpResponse<byte[]> httpRes = client.send(req);
 
         String contentType = httpRes.headers().firstValue("Content-Type").orElse("application/octet-stream");
-
-        com.example.test_without_webhooks.models.operations.PostSendPetResponse res = new com.example.test_without_webhooks.models.operations.PostSendPetResponse(contentType, httpRes.statusCode()) {{
+        
+        com.example.test_without_webhooks.models.operations.PostSendPetResponse res = new com.example.test_without_webhooks.models.operations.PostSendPetResponse(contentType, httpRes.statusCode(), httpRes) {{
         }};
-        res.rawResponse = httpRes;
         
         if (httpRes.statusCode() == 200) {
         }

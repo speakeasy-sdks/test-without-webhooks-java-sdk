@@ -1,0 +1,54 @@
+lockVersion: 2.0.0
+id: 1f09a93b-0942-4d86-8455-ee97d9adac5f
+management:
+  docChecksum: 0f4dc7d494564b62ed0526ffebf7d3cd
+  docVersion: v1
+  speakeasyVersion: internal
+  generationVersion: 2.230.1
+  releaseVersion: 0.10.0
+  configChecksum: 088705610254c37ce86e6cc85313f2cb
+  repoURL: https://github.com/speakeasy-sdks/test-without-webhooks-java-sdk.git
+  repoSubDirectory: .
+  published: true
+features:
+  java:
+    core: 3.2.2
+    globalServerURLs: 2.82.1
+generatedFiles:
+  - lib/src/main/java/com/example/test_without_webhooks/SDKConfiguration.java
+  - lib/src/main/java/com/example/test_without_webhooks/TestWithoutWebhooks.java
+  - .gitattributes
+  - gradle/wrapper/gradle-wrapper.jar
+  - gradle/wrapper/gradle-wrapper.properties
+  - gradlew
+  - gradlew.bat
+  - lib/build.gradle
+  - lib/src/main/java/com/example/test_without_webhooks/utils/DateTimeDeserializer.java
+  - lib/src/main/java/com/example/test_without_webhooks/utils/DateTimeSerializer.java
+  - lib/src/main/java/com/example/test_without_webhooks/utils/FormMetadata.java
+  - lib/src/main/java/com/example/test_without_webhooks/utils/HTTPClient.java
+  - lib/src/main/java/com/example/test_without_webhooks/utils/HTTPRequest.java
+  - lib/src/main/java/com/example/test_without_webhooks/utils/HeaderMetadata.java
+  - lib/src/main/java/com/example/test_without_webhooks/utils/JSON.java
+  - lib/src/main/java/com/example/test_without_webhooks/utils/Metadata.java
+  - lib/src/main/java/com/example/test_without_webhooks/utils/MultipartFormMetadata.java
+  - lib/src/main/java/com/example/test_without_webhooks/utils/PathParamsMetadata.java
+  - lib/src/main/java/com/example/test_without_webhooks/utils/QueryParameters.java
+  - lib/src/main/java/com/example/test_without_webhooks/utils/QueryParamsMetadata.java
+  - lib/src/main/java/com/example/test_without_webhooks/utils/RequestBody.java
+  - lib/src/main/java/com/example/test_without_webhooks/utils/RequestMetadata.java
+  - lib/src/main/java/com/example/test_without_webhooks/utils/Security.java
+  - lib/src/main/java/com/example/test_without_webhooks/utils/SecurityMetadata.java
+  - lib/src/main/java/com/example/test_without_webhooks/utils/SerializedBody.java
+  - lib/src/main/java/com/example/test_without_webhooks/utils/SpeakeasyHTTPClient.java
+  - lib/src/main/java/com/example/test_without_webhooks/utils/SpeakeasyHTTPSecurityClient.java
+  - lib/src/main/java/com/example/test_without_webhooks/utils/SpeakeasyMetadata.java
+  - lib/src/main/java/com/example/test_without_webhooks/utils/Types.java
+  - lib/src/main/java/com/example/test_without_webhooks/utils/Utils.java
+  - settings.gradle
+  - lib/src/main/java/com/example/test_without_webhooks/models/operations/PostSendPetResponse.java
+  - lib/src/main/java/com/example/test_without_webhooks/models/shared/Pet1.java
+  - docs/models/operations/PostSendPetResponse.md
+  - docs/models/shared/Pet1.md
+  - docs/sdks/testwithoutwebhooks/README.md
+  - USAGE.md

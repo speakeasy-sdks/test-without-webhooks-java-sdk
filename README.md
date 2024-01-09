@@ -6,18 +6,21 @@
     
 </div>
 
-<!-- Start SDK Installation -->
+<!-- Start SDK Installation [installation] -->
 ## SDK Installation
 
 ### Gradle
 
 ```groovy
-implementation 'com.example.test_without_webhooks:test-without-webhooks:0.9.1'
+implementation 'com.example.test_without_webhooks:test-without-webhooks:0.10.0'
 ```
-<!-- End SDK Installation -->
+<!-- End SDK Installation [installation] -->
 
+<!-- Start SDK Example Usage [usage] -->
 ## SDK Example Usage
-<!-- Start SDK Example Usage -->
+
+### Example
+
 ```java
 package hello.world;
 
@@ -28,14 +31,16 @@ import com.example.test_without_webhooks.models.shared.Pet1;
 public class Application {
     public static void main(String[] args) {
         try {
-            TestWithoutWebhooks sdk = TestWithoutWebhooks.builder()
-                .build();
+            TestWithoutWebhooks sdk = TestWithoutWebhooks.builder()            .build();
 
-            com.example.test_without_webhooks.models.shared.Pet1 req = new Pet1(794362L, "string"){{
+            com.example.test_without_webhooks.models.shared.Pet1 req = new Pet1(
+                794362L,
+                "string"){{
                 tag = "string";
-            }};            
 
-            PostSendPetResponse res = sdk.postSendPet(req);
+            }};
+
+            com.example.test_without_webhooks.models.operations.PostSendPetResponse res = sdk.postSendPet(req);
 
             if (res.statusCode == 200) {
                 // handle response
@@ -46,21 +51,38 @@ public class Application {
     }
 }
 ```
-<!-- End SDK Example Usage -->
+<!-- End SDK Example Usage [usage] -->
 
-<!-- Start SDK Available Operations -->
+<!-- Start Available Resources and Operations [operations] -->
 ## Available Resources and Operations
 
 ### [TestWithoutWebhooks SDK](docs/sdks/testwithoutwebhooks/README.md)
 
 * [postSendPet](docs/sdks/testwithoutwebhooks/README.md#postsendpet)
-<!-- End SDK Available Operations -->
+<!-- End Available Resources and Operations [operations] -->
 
 
 
-<!-- Start Dev Containers -->
+<!-- Start Server Selection [server] -->
+## Server Selection
 
-<!-- End Dev Containers -->
+## Server Selection
+
+### Select Server by Index
+
+You can override the default server globally using the `setServerIndex` option when initializing the SDK client instance. The selected server will then be used as the default on the operations that use it. This table lists the indexes associated with the available servers:
+
+| # | Server | Variables |
+| - | ------ | --------- |
+| 0 | `http://localhost:8080` | None |
+
+
+
+
+### Override Server URL Per-Client
+
+The default server can also be overridden globally using the `setServerURL` option when initializing the SDK client instance. For example:
+<!-- End Server Selection [server] -->
 
 <!-- Placeholder for Future Speakeasy SDK Sections -->
 
