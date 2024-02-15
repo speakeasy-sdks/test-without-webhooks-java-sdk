@@ -5,8 +5,10 @@ generation:
     optionalPropertyRendering: withExample
   fixes:
     nameResolutionDec2023: false
+    parameterOrderingFeb2024: false
+    requestResponseComponentNamesFeb2024: false
 java:
-  version: 0.10.0
+  version: 0.11.0
   artifactID: test-without-webhooks
   companyEmail: info@mycompany.com
   companyName: My Company
@@ -26,3 +28,4 @@ java:
   ossrhURL: https://s01.oss.sonatype.org/service/local/staging/deploy/maven2/
   outputModelSuffix: output
   projectName: test-without-webhooks
+  templateVersion: v1

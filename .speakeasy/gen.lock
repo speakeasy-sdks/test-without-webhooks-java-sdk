@@ -4,15 +4,15 @@ management:
   docChecksum: 0f4dc7d494564b62ed0526ffebf7d3cd
   docVersion: v1
   speakeasyVersion: internal
-  generationVersion: 2.230.1
-  releaseVersion: 0.10.0
-  configChecksum: 088705610254c37ce86e6cc85313f2cb
+  generationVersion: 2.258.2
+  releaseVersion: 0.11.0
+  configChecksum: 9116bba37b60820351fe5476086924bf
   repoURL: https://github.com/speakeasy-sdks/test-without-webhooks-java-sdk.git
   repoSubDirectory: .
   published: true
 features:
   java:
-    core: 3.2.2
+    core: 3.5.1
     globalServerURLs: 2.82.1
 generatedFiles:
   - lib/src/main/java/com/example/test_without_webhooks/SDKConfiguration.java
@@ -22,6 +22,7 @@ generatedFiles:
   - gradle/wrapper/gradle-wrapper.properties
   - gradlew
   - gradlew.bat
+  - settings.gradle
   - lib/build.gradle
   - lib/src/main/java/com/example/test_without_webhooks/utils/DateTimeDeserializer.java
   - lib/src/main/java/com/example/test_without_webhooks/utils/DateTimeSerializer.java
@@ -45,7 +46,6 @@ generatedFiles:
   - lib/src/main/java/com/example/test_without_webhooks/utils/SpeakeasyMetadata.java
   - lib/src/main/java/com/example/test_without_webhooks/utils/Types.java
   - lib/src/main/java/com/example/test_without_webhooks/utils/Utils.java
-  - settings.gradle
   - lib/src/main/java/com/example/test_without_webhooks/models/operations/PostSendPetResponse.java
   - lib/src/main/java/com/example/test_without_webhooks/models/shared/Pet1.java
   - docs/models/operations/PostSendPetResponse.md

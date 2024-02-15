@@ -13,8 +13,8 @@ public class Application {
 
             com.example.test_without_webhooks.models.shared.Pet1 req = new Pet1(
                 794362L,
-                "string"){{
-                tag = "string";
+                "<value>"){{
+                tag = "<value>";
 
             }};
 
